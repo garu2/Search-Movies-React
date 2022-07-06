@@ -1,7 +1,27 @@
+import { useContext } from "react";
+import { DataContext } from "../context/DataContext";
+import ItemMovie from "./ItemMovie";
+import { Link } from "react-router-dom";
+
 const Movies = () => {
+    const { isLoading, data } = useContext(DataContext);
+
     return ( 
         <div className="movies-content">
-            <h3>movies content</h3>
+            {
+                !isLoading ?
+                    data.map(item => (
+                        <ItemMovie 
+                        key={item.imdbID} 
+                        id={item.imdbID} 
+                        type={item.Type} 
+                        title={item.Title} 
+                        poster={item.Poster} 
+                        year={item.Year}
+                        />
+                    ))
+                : ''
+            }
         </div>
     );
 }

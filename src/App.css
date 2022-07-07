@@ -46,6 +46,11 @@ body{
 }
 .info p {
     margin: 0;
+   /*  color: #000; */
+    
+}
+.info p span {
+    text-decoration: none;
 }
 .info h4 {
     margin: 0 0 8px;
@@ -62,16 +67,16 @@ body{
 }
 .form-search input[type="text"] {
     font-family: inherit;
-    padding: 8px 17px;
+    padding: 9px 17px;
     font-size: 20px;
-    border-radius: 15px;
+    border-radius: 15px 0px 0px 15px;
     outline: none;
     border: 0;
 }
 .form-search input[type="submit"] {
     font-size: 20px;
     padding: 12px 18px;
-    border-radius: 15px;
+    border-radius: 0px 15px 15px 0px;
     background-color: #000;
     color: #fff;
     border: 0;
@@ -88,4 +93,45 @@ body{
 
 .form-search h2 {
     font-size: 50px;
+}
+/* single movie */
+.single-movie {
+    display: flex;
+    gap: 25px;
+    margin: 7% 0 3%;
+    justify-content: center;
+}
+.single-movie .single-info {
+    width: 500px;
+    text-align: left;
+    background-color: #ffffff9e;
+    padding: 13px 25px;
+    border-radius: 15px;
+}
+.single-movie .single-info h2 {
+    font-size: 40px;
+    line-height: 42px;
+    margin-top: 0;
+}
+.single-movie img {
+    border-radius: 15px;
+    object-fit: cover;
+    width: 300px;
+}
+
+/* loading animation */
+@keyframes spinner {
+    to  {
+        transform: rotate(360deg);
+    }
+}
+.loading {
+    width: 6rem;
+    height: 6rem;
+    margin: 0 auto;
+    margin-top:  10rem;
+    border-radius: 50%;
+    border: 8px solid #000;
+    border-top-color: #FCAF3C;
+    animation: spinner .6s linear infinite;
 }

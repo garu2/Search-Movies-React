@@ -9,7 +9,7 @@ const FormSearch = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log('title: ', title);
-        setQuery(title);
+        setQuery(title); 
     }
 
     return ( 

@@ -5,7 +5,7 @@
  [Deploy](https://search-movies-react.vercel.app/)
 
 ## 💻Tutorial
-[YouTube](#)
+[YouTube](https://youtu.be/5wWA69U4HOk)
 
 ## 📦Getting Started
 ```

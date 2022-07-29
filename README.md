@@ -1,8 +1,8 @@
-# 🎬Color-Generator-React
+# 🎬Search-Movies-React
 ![image](https://drive.google.com/uc?export=view&id=1hpyoDoeaGkJYiP4a3zDN82fyxqTpWmRW)
 
 ## 🚀DEMO
- [Deploy](#)
+ [Deploy](https://search-movies-react.vercel.app/)
 
 ## 💻Tutorial
 [YouTube](#)

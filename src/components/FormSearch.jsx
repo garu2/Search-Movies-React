@@ -8,7 +8,7 @@ const FormSearch = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log('title: ', title);
+        //console.log('title: ', title);
         setQuery(title); 
     }
 

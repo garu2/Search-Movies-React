@@ -7,20 +7,13 @@ import DefaultImage from "/NoImage.png"
 const SingleMovie = () => {
     const { id } = useParams();
     const {isLoading, error, data} = useFetch(`&i=${id}`);
-    console.log("log: ", data);
-    console.log("loagind: ", isLoading);
     
     if (isLoading) {
         return <div className="loading"></div>
     }
-    //useEffect(() => {
-        
-        //}, [isLoading])
-    //if (!isLoading) {
+
     const { Poster, Title, Plot, Year, Country, Director, Released, Runtime } = data;
     let image = Poster === "N/A" ? DefaultImage : Poster;
-        //return <p>loading</p>
-    //}
 
     return ( 
         !isLoading ?

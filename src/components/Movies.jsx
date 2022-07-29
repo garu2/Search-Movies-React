@@ -1,7 +1,6 @@
 import { useContext } from "react";
 import { DataContext } from "../context/DataContext";
 import ItemMovie from "./ItemMovie";
-import { Link } from "react-router-dom";
 
 const Movies = () => {
     const { isLoading, data } = useContext(DataContext);

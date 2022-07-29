@@ -3,7 +3,6 @@ import DefaultImage from "/NoImage.png"
 import { Link } from "react-router-dom";
 
 const ItemMovie = ({ id, title, type, year, poster }) => {
-    // console.log('poster:',poster  );
     
     let image = poster === "N/A" ? DefaultImage : poster;
 

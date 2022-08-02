@@ -26,3 +26,6 @@ npm run dev
 * [Vercel](https://vercel.com/)
 ## 🛠NPM
 * [React Router DOM](https://www.npmjs.com/package/react-router-dom/)
+## 🗃API
+* [OMDb API](https://www.omdbapi.com/)
+

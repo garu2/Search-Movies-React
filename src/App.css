@@ -125,3 +125,17 @@ body{
     border-top-color: #FCAF3C;
     animation: spinner .6s linear infinite;
 }
+
+p.author {
+    display: flex;
+    justify-content: center;
+    FONT-VARIANT: JIS04;
+    margin-top: 3%;
+    gap: 7px;
+    color: #fff;
+}
+p.author a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #fff;
+}

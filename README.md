@@ -5,7 +5,9 @@
  [Deploy](https://search-movies-react.vercel.app/)
 
 ## 💻Tutorial
-[YouTube](https://youtu.be/5wWA69U4HOk)
+<a href='https://youtu.be/5wWA69U4HOk' target='_blank'>
+    <img width='30%' src='https://img.youtube.com/vi/5wWA69U4HOk/mqdefault.jpg' alt='Search-Movies-React' />
+</a>
 
 ## 📦Getting Started
 ```
